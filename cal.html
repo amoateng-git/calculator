@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>delvin</title>
+    <link rel="stylesheet" href="cal.css"> 
+</head>
+<body>
+    <section>
+        <div class="calculator">
+            <div id="display" class="display">0</div>
+             <div class="buttons">
+                <button class="grey" onclick="clearDisplay()">ac</button>
+                <button class="grey" onclick="toggleSign()">+/-</button>
+                <button class="grey" onclick="input('%')">%</button>
+                <button class="orange" onclick="input('/')">/</button>
+                <button onclick="input('7')">7</button>
+                <button onclick="input('8')">8</button>
+                <button onclick="input('9')">9</button>
+                <button class="orange" onclick="input('*')">x</button>
+                <button onclick="input ('4')">4</button>
+                <button onclick="input('5')">5</button>
+                <button onclick="input('6')">6</button>
+                <button class="orange" onclick="input('-')">-</button>
+                <button onclick="input('1')">1</button>
+                <button onclick="input('2')">2</button>
+                <button onclick="input('3')">3</button>
+                <button class="orange" onclick="input('+')">+</button>
+                <button class="btn-wide" onclick="input('0')">0</button>
+                <button onclick="input('.')">.</button>
+                <button class="orange"onclick="calculate()">=</button>
+             </div>
+        </div>
+    </section>
+    <script src="cal.js">
+
+    </script>
+</body>
+</html>
